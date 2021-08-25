@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>About Us</title>
+  </head>
+  <body>
+    <section class="sub-Header">
+      <nav>
+        <a href="index.html"><img class="logo" src="logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>ABOUT US</h1>
+    </section>
+    <!------------Content part of the web page------------>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-column">
+          <h1>We are the World's largest university</h1>
+          <p>
+            just an filler for testing n correcting purposes,this text will be
+            replaced when the content is finalized. just an filler for testing n
+            correcting purposes,this text will be replaced when the content is
+            finalized. just an filler for testing n correcting purposes,this
+            text will be replaced when the content is finalized.just an filler
+            for testing n correcting purposes,this text will be replaced when
+            the content is finalized.just an filler for testing n correcting
+            purposes,this text will be replaced when the content is finalized.
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-column">
+          <img src="about.jpg" />
+        </div>
+      </div>
+    </section>
+    <!-----------footer section of the web page----------->
+    <section class="Footer">
+      <h4>ABOUT US</h4>
+      <p>
+        just an filler for testing n correcting purposes,this text will be<br />
+        replaced when the content is finalized
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa fa-heart-o"></i> By RV</p>
+    </section>
+
+    <!------toggle opeeration for smaller screen with max width as 700pixels-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
